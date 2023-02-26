@@ -17,25 +17,25 @@ export const NavBar = () => {
                 <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
                     <ul className="nav_list_grid">
                         <li className="nav_item">
-                            <a href="/Spaine/home" className="nav_link">
+                            <a href="/home" className="nav_link">
                                 <UilHome/> Home
                             </a>
                         </li>
 
                         <li className="nav_item">
-                            <a href="/Spaine/workout" className="nav_link">
+                            <a href="/workout" className="nav_link">
                                 <UilDumbbell/> Workout
                             </a>
                         </li>
 
                         <li className="nav_item">
-                            <a href="/Spaine/goals" className="nav_link">
+                            <a href="/goals" className="nav_link">
                                 <UilHeartbeat/> Goals
                             </a>
                         </li>
 
                         <li className="nav_item">
-                            <a href="/Spaine/profile" className="nav_link">
+                            <a href="/profile" className="nav_link">
                                 <UilUserCircle/> Profile
                             </a>
                         </li>

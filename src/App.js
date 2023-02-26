@@ -14,13 +14,13 @@ function App() {
     case "/home":
       component = <Home />
       break
-    case "/Spaine/workout":
+    case "/workout":
       component = <Workout />
       break
-    case "/Spaine/goals":
+    case "/goals":
       component = <Goals />
       break
-    case "/Spaine/profile":
+    case "/profile":
       component = <Profile />
       break
     default:
