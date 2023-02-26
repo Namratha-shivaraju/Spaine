@@ -1,0 +1,23 @@
+.add_button {
+    width: 350px;
+    height: 50px;
+    background-color: #AC73FF;
+    color: white;
+    border-radius: 10px;
+}
+.workout_type {
+    padding: 10px;
+    margin: 20px;
+}
+.time {
+    padding: 10px;
+    margin: 20px;
+    width: 220px;
+}
+.remove {
+    padding: 10px;
+    margin: 20px;
+    background-color: #AC73FF;
+    color: white;
+    border-radius: 10px;
+}

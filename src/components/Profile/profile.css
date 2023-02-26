@@ -1,0 +1,9 @@
+.header_info {
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+.body {
+    text-align: center;
+}
