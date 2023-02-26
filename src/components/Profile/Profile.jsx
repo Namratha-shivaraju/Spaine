@@ -16,7 +16,7 @@ const Profile = () => {
             <div className="user">
                 <div className="header_info">
                         <UserAvatar size="48" name="New User" />
-                        <h5>New User</h5>
+                        <h5>&nbsp; &nbsp; New User</h5>
                 </div> 
             </div>
             <div className="body">

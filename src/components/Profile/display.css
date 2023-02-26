@@ -1,8 +1,15 @@
-.portfolio_container {
+.profile_container {
     padding-top: 30px;
+    grid-template-columns: repeat(2, 350px);
     column-gap: 3rem;
     justify-content: center;
 }
+.cal_container{
+    padding-top: 30px;
+    grid-template-columns: repeat(2, 350px);
+    column-gap: 3rem;
+    padding-left: 240px;
+} 
 .trainn_time{
     padding: 30px;
     background-color: white;
@@ -36,21 +43,29 @@
     color: rgb(79, 79, 79);
     width: 200px;
     border-radius: 10px;
+    padding-left: -10px;
 }
 @media screen and (max-width: 992px) {
-    .portfolio_container{
+    .profile_container{
         grid-template-columns: repeat(2, 350px);
         row-gap: 2rem;
     } 
+    .cal_container{
+        grid-template-columns: repeat(2, 350px);
+        row-gap: 2rem;
+        padding-left: 240px;
+    } 
+    
 }
 
 @media screen and (max-width: 576px) {
-    .portfolio_container {
+    .profile_container {
         grid-template-columns: 1fr;
         width: 80%;
     }
-
-    .portfolio_content {
-        padding: 1.5rem;
-    }
+    .cal_container{
+        grid-template-columns: 1fr;
+        width: 80%;
+        padding-left: 140px;
+    } 
 }

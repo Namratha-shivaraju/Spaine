@@ -30,6 +30,7 @@ function GoalsDisplay() {
                 <p>Active Energy</p>
                 <p>350 cals</p>
               </div>
+              
             </div>
           </div>
         </div>
