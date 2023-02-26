@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Spaine/static/css/main.f8086d0e.css",
+    "main.js": "/Spaine/static/js/main.66da0b8d.js",
+    "index.html": "/Spaine/index.html",
+    "main.f8086d0e.css.map": "/Spaine/static/css/main.f8086d0e.css.map",
+    "main.66da0b8d.js.map": "/Spaine/static/js/main.66da0b8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8086d0e.css",
+    "static/js/main.66da0b8d.js"
+  ]
+}
