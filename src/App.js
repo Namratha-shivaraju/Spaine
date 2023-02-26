@@ -11,7 +11,7 @@ function App() {
     case "/Spaine/":
       component = <Home />
       break
-    case "/Spaine/home":
+    case "/home":
       component = <Home />
       break
     case "/Spaine/workout":
