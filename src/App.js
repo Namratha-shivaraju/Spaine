@@ -8,19 +8,19 @@ import Profile from './components/Profile/Profile';
 function App() {
   let component
   switch (window.location.pathname) {
-    case "/":
+    case "/Spaine/":
       component = <Home />
       break
-    case "/home":
+    case "/Spaine/home":
       component = <Home />
       break
-    case "/workout":
+    case "/Spaine/workout":
       component = <Workout />
       break
-    case "/goals":
+    case "/Spaine/goals":
       component = <Goals />
       break
-    case "/profile":
+    case "/Spaine/profile":
       component = <Profile />
       break
     default:
