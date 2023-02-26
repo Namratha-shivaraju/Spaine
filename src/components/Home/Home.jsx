@@ -20,9 +20,9 @@ const Home = () => {
             </div>
             <div className="body">
                 <button className="round_button" id="connect" type="button" onClick={connectToDevice}>
-                    <a href="#workout">
+                    <p>
                         +
-                    </a>
+                    </p>
                 </button>
                 {device && <p>Connected to device: {device.name}</p>}
             </div>
