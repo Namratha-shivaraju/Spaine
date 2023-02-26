@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import "./home.css";
-import Workout from "../Workout/Workout"
 const Home = () => {
-    const [showComponent, setShowComponent] = useState(false);
+    const [device, setDevice] = useState(null);
 
-    function handleClick() {
-        setShowComponent(true);
+    async function connectToDevice() {
+        const options = {
+          filters: [{ name: "My Bluetooth Device" }],
+        };
+        const device = await navigator.bluetooth.requestDevice(options);
+        await device.gatt.connect();
+        setDevice(device);
     }
     return (
         <section className="home section" id="home">
@@ -15,12 +19,12 @@ const Home = () => {
                 </div>
             </div>
             <div className="body">
-                <button className="round_button" id="connect" type="button" onClick={handleClick}>
+                <button className="round_button" id="connect" type="button" onClick={connectToDevice}>
                     <a href="#workout">
                         +
                     </a>
                 </button>
-                {showComponent && <Workout />}
+                {device && <p>Connected to device: {device.name}</p>}
             </div>
         </section>
     )
