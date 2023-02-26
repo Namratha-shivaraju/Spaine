@@ -2,9 +2,9 @@ import React from 'react'
 import GoalsDisplay from './GoalsDisplay'
 const Goals = () => {
   return (
-    <section className="goal section" id="goals">
-            <div className="goal_container container grid">
-                <div className="goal_content grid">
+    <section className="home section" id="goals">
+            <div className="home_container container grid">
+                <div className="home_content grid">
                     <h1>Goal</h1>   
                 </div>
             </div>

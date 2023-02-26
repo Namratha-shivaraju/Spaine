@@ -13,29 +13,29 @@ export const NavBar = () => {
     return(
         <header className="header">
             <nav className="nav container">
-                <a href="#home" className="nav_logo">sPAINe</a>
+                <a href="/" className="nav_logo">sPAINe</a>
                 <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
                     <ul className="nav_list_grid">
                         <li className="nav_item">
-                            <a href="#home" className="nav_link">
+                            <a href="/home" className="nav_link">
                                 <UilHome/> Home
                             </a>
                         </li>
 
                         <li className="nav_item">
-                            <a href="#workout" className="nav_link">
+                            <a href="/workout" className="nav_link">
                                 <UilDumbbell/> Workout
                             </a>
                         </li>
 
                         <li className="nav_item">
-                            <a href="#goals" className="nav_link">
+                            <a href="/goals" className="nav_link">
                                 <UilHeartbeat/> Goals
                             </a>
                         </li>
 
                         <li className="nav_item">
-                            <a href="#profile" className="nav_link">
+                            <a href="/profile" className="nav_link">
                                 <UilUserCircle/> Profile
                             </a>
                         </li>
