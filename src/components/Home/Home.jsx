@@ -20,7 +20,7 @@ const Home = () => {
             </div>
             <div className="body">
                 <button className="round_button" id="connect" type="button" onClick={connectToDevice}>
-                    <a href="/connect">
+                    <a href="#workout">
                         +
                     </a>
                 </button>
