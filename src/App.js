@@ -4,21 +4,21 @@ import Home from './components/Home/Home';
 import Workout from './components/Workout/Workout';
 import Goals from './components/Goals/Goals';
 import Profile from './components/Profile/Profile';
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
     <NavBar />
-    <HashRouter>
+    <BrowserRouter basename="/Spaine">
       <Routes>
-        <Route path="/Spaine/" element={<Home />}/>
+        <Route exact path="/Spaine" element={<Home />}/>
           <Route path="/home" element={<Home />} />
           <Route path="/workout" element={<Workout />} />
           <Route path="/goals" element={<Goals />} />
           <Route path="/profile" element={<Profile />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
     </>
   );
 }

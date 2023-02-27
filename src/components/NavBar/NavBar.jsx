@@ -13,7 +13,7 @@ export const NavBar = () => {
     return(
         <header className="header">
             <nav className="nav container">
-                <a href="/Spaine/" className="nav_logo">sPAINe</a>
+                <a href="/Spaine" className="nav_logo">sPAINe</a>
                 <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
                     <ul className="nav_list_grid">
                         <li className="nav_item">
