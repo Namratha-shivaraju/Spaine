@@ -1,16 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./home.css";
-const Home = () => {
-    const [device, setDevice] = useState(null);
 
-    async function connectToDevice() {
-        const options = {
-          filters: [{ name: "My Bluetooth Device" }],
-        };
-        const device = await navigator.bluetooth.requestDevice(options);
-        await device.gatt.connect();
-        setDevice(device);
-    }
+const Home = () => {
     return (
         <section className="home section" id="home">
             <div className="home_container container grid">
@@ -19,12 +10,11 @@ const Home = () => {
                 </div>
             </div>
             <div className="body">
-                <button className="round_button" id="connect" type="button" onClick={connectToDevice}>
+                <button className="round_button" id="connect" type="button">
                     <p>
                         +
                     </p>
                 </button>
-                {device && <p>Connected to device: {device.name}</p>}
             </div>
         </section>
     )
